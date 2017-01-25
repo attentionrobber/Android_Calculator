@@ -61,7 +61,7 @@ public class Calculator2Activity extends AppCompatActivity implements View.OnCli
 
     public void onClick(View v) {
         // 안드로이드 메이저 컴포넌트(액티비티, 서비스, 컨텐트 프로바이더, 브로드캐스트 리시버)를 로드하기 위해서는
-        // intent를 통해서 로드할 컴포넌트를 지정해야한다.
+        // intent를 통해서 로드할 컴포넌트를 지정해야한다. 
 
             switch (v.getId()) {
                 case R.id.btn_0:
